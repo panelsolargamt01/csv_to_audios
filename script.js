@@ -68,7 +68,7 @@ document.getElementById('convertBtn').addEventListener('click', () => {
             // Descargar automáticamente
             const a = document.createElement('a');
             a.href = url;
-            a.download = `${eje}_exacto.wav`;
+            a.download = `${eje}.wav`;
             a.click();
 
             // Enlace visible
@@ -82,3 +82,4 @@ document.getElementById('convertBtn').addEventListener('click', () => {
     };
     reader.readAsText(fileInput.files[0]);
 });
+
