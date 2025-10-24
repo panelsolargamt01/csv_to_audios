@@ -13,9 +13,10 @@ body {
     padding: 30px;
     border-radius: 12px;
     text-align: center;
-    width: 400px;
+    width: 420px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
-button, input[type="file"] {
+button, input[type="file"], input[type="range"] {
     cursor: pointer;
     padding: 10px 15px;
     margin: 10px;
@@ -34,3 +35,11 @@ a.audio-link {
     text-decoration: none;
 }
 a.audio-link:hover { color: #16a34a; }
+#gainRange {
+    width: 200px;
+    vertical-align: middle;
+}
+#gainValue {
+    font-weight: bold;
+    color: #fbbf24;
+}
