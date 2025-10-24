@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #1e293b;
+    color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: #334155;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 400px;
+}
+button, input[type="file"] {
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+}
+button:hover, input[type="file"]:hover { background: #0ea5e9; }
+a.audio-link {
+    display: block;
+    margin-top: 10px;
+    color: #22c55e;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.audio-link:hover { color: #16a34a; }
